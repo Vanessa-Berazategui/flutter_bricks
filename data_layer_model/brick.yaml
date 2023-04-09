@@ -1,0 +1,14 @@
+name: data_layer_model
+description: A data layer model brick.
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.35 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Data layer model name
+    default: <entity_name>_model
+    prompt: What is the Data Layer Model's name?

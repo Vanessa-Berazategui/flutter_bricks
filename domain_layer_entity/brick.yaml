@@ -1,0 +1,13 @@
+name: domain_layer_entity
+description: A domain layer entity brick.
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.35 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Domain layer entity name
+    prompt: What is the Domain Layer Entity's name?

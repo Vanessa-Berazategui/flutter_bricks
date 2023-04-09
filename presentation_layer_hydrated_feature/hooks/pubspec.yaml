@@ -1,0 +1,9 @@
+name: presentation_layer_hydrated_feature_hooks
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  mason: any
+  path: ^1.8.2
+  pubspec_parse: ^1.2.1

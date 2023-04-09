@@ -1,0 +1,13 @@
+name: presentation_layer_hydrated_feature
+description: A presentation layer hydrated feature brick.
+
+version: 0.1.1+2
+
+environment:
+  mason: '>=0.1.0-dev.26 <0.1.0'
+
+vars:
+  name:
+    type: string
+    description: Presentation layer hydrated feature name
+    prompt: What is the Presentation Layer Hydrated Feature's name?

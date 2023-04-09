@@ -1,0 +1,14 @@
+name: domain_layer_package
+description: A domain layer package brick.
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.35 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Package domain layer name
+    default: <project_name>
+    prompt: What is the Domain Layer Package's name?
