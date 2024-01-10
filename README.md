@@ -9,6 +9,7 @@ dart pub global activate mason_cli
 ```
 
 2. Inicializar mason
+
 ```bash
 mason init
 ```
@@ -28,6 +29,7 @@ dart pub global activate mason_cli
 ```
 
 2. Inicializar mason
+
 ```bash
 mason init
 ```
@@ -35,7 +37,7 @@ mason init
 3. Agregar bricks submodule al proyecto
 
 ```bash
-git submodule add git@gitlab.geocom.com.uy:uy.com.geocom.mobile/bricks.git
+git submodule add https://github.com/Vanessa-Berazategui/flutter_bricks.git
 ```
 
 3. Agregar el brick <BRICK_NAME> deseado al proyecto.
@@ -53,22 +55,26 @@ mason make <BRICK_NAME> --name=nombre_example
 ## Cómo usar bricks en un proyecto que contenga bricks com submodulo
 
 1. Clonar el proyecto a utilizar.
+
 ```bash
-git clone git@gitlab.geocom.com.uy:project_example/repo_example.git
+git clone https://github.com/Vanessa-Berazategui/repo_example.git
 ```
 
 2. Inicializar mason
+
 ```bash
 mason init
 ```
 
 3. Descargar submodulo de bricks (si da error de autenticación realizar un git clone)
+
 ```bash
 git submodule init
 git submodule update
 ```
 
 4. Obtener los bricks
+
 ```bash
 git mason get
 ```
@@ -81,7 +87,7 @@ mason list
 
 ## Listado de bricks
 
-### **data_layer_model**:
+### **data_layer_model**
 
 ```bash
 mason make data_layer_model --name=<feature_name>
@@ -116,4 +122,3 @@ mason make domain_layer_package --name=<feature_name>
 ```bash
 mason make data_layer_package --name=<feature_name>
 ```
-
