@@ -13,8 +13,15 @@ class {{name.pascalCase()}}Page extends GoRoute {
   static Widget _builder(
     BuildContext context,
     GoRouterState state,
-  ) => 
-      const {{name.pascalCase()}}View();
+  ) => MaterialPage(
+            key: state.pageKey,
+            child: BlocProvider(
+              create: (context) => getIt<{{name.pascalCase()}}Bloc>(),
+              child: {{name.pascalCase()}}View(),
+            ),
+  );
       
-  static void open(BuildContext context) => context.go(_path);
+  static String get route => _path;
+
+  static void open(BuildContext context) => context.go(route);
 }
