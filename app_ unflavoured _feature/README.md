@@ -1,4 +1,4 @@
-# presentation_layer_feature
+# app_unflavoured_feature
 
 [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
 
@@ -21,10 +21,10 @@ A few resources to get you started if this is your first brick template:
 [4]: https://youtu.be/G4PTjA6tpTU
 
 ```bash
-mason make presentation_layer_feature --name=feature_name
+mason make app_unflavoured_feature --name=feature_name
 ```
 
-Genera la estructura de archivos que compone una feature de la capa de presentación.
+Genera la estructura de archivos que compone una feature de una aplicación sin flavours, este feature va bajo el lib de la estructura base del proyecto.
 
 Un feature está compuesto por las carpetas `bloc`, `page`, `view` y `widget`
 

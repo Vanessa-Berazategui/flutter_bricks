@@ -1,0 +1,13 @@
+name: app_feature
+description: A app feature brick.
+
+version: 0.1.1+2
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: App feature name
+    prompt: What is the App Feature's name?

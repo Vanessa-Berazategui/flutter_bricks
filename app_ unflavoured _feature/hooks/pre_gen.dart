@@ -5,7 +5,7 @@ import 'package:pubspec_parse/pubspec_parse.dart';
 import 'package:path/path.dart' as path;
 
 Future<void> run(HookContext context) async {
-  context.logger.info('Getting package info');
+  final progress = context.logger.progress('Getting package info');
 
   final pubspecContent = await File(
     path.join('..', 'pubspec.yaml'),
@@ -14,5 +14,7 @@ Future<void> run(HookContext context) async {
   final pubspec = Pubspec.parse(pubspecContent);
 
   context.vars = {...context.vars, 'package_name': pubspec.name};
-  context.logger.info('Package name: ${pubspec.name} ');
+  progress.progress('Package name: ${pubspec.name} ');
+
+  progress.complete();
 }
