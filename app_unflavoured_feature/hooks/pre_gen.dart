@@ -5,7 +5,7 @@ import 'package:pubspec_parse/pubspec_parse.dart';
 import 'package:path/path.dart' as path;
 
 Future<void> run(HookContext context) async {
-  final progress = context.logger.progress();
+  final progress = context.logger.progress('Executing pre_gen hook...');
 
   progress.update('Getting package info...');
 
