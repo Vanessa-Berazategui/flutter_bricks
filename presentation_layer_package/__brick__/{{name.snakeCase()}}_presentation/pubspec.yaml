@@ -14,9 +14,9 @@ dependencies:
   flutter_svg: ^2.0.7
   freezed_annotation: ^2.4.1
   {{name.snakeCase()}}_data:
-    path: ../../{{name.snakeCase()}}/packages/{{name.snakeCase()}}_data
+    path: ../{{name.snakeCase()}}_data
   {{name.snakeCase()}}_domain:
-    path: ../../{{name.snakeCase()}}/packages/{{name.snakeCase()}}_domain
+    path: ../{{name.snakeCase()}}_domain
   go_router: ^11.1.2
   intl: ^0.18.1
 
@@ -29,8 +29,8 @@ dev_dependencies:
   test: ^1.19.2
   very_good_analysis: ^5.1.0
 
-flutter:
-  assets:
+# flutter:
+#   assets:
 
 
 flutter_gen:
