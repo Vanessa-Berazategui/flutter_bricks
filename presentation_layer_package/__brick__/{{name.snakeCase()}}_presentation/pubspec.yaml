@@ -29,8 +29,10 @@ dev_dependencies:
   test: ^1.19.2
   very_good_analysis: ^5.1.0
 
-# flutter:
-#   assets:
+flutter:
+  assets:
+    - assets/icons/
+    - assets/animations/
 
 
 flutter_gen:
