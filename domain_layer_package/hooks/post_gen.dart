@@ -2,9 +2,15 @@ import 'dart:io';
 import 'package:mason/mason.dart';
 
 Future<void> run(HookContext context) async {
-  context.logger.info('Domain Layer Package generated');
-  context.logger.info('Running "dart fix --apply"');
+  final progress = context.logger.progress('Executing post_gen hook...');
+
+  progress.update('Domain Layer Package generated');
+
+  progress.update('Running "dart fix --apply"');
   await Process.run('fvm', ['dart', 'fix', '--apply']);
   await Process.run('fvm', ['flutter', 'format', '.']);
-  context.logger.info('Your Domain Layer Package is ready');
+
+  progress.update('Your Domain Layer Package is ready');
+
+  progress.complete();
 }

@@ -2,11 +2,15 @@ import 'dart:io';
 import 'package:mason/mason.dart';
 
 Future<void> run(HookContext context) async {
-  final name = context.vars['name'];
+  final progress = context.logger.progress('Executing post_gen hook...');
 
-  context.logger.info('Data Layer Package generated');
-  context.logger.info('Running "dart fix --apply" in $name');
-  await Process.run('fvm', ['dart', 'fix', '--apply', name]);
-  await Process.run('fvm', ['flutter', 'format', name]);
-  context.logger.info('Your Data Layer Package is ready');
+  progress.update('Data Layer Package generated');
+
+  progress.update('Running "dart fix --apply"');
+  await Process.run('fvm', ['dart', 'fix', '--apply']);
+  await Process.run('fvm', ['flutter', 'format', '.']);
+
+  progress.update('Your Data Layer Package is ready');
+
+  progress.complete();
 }
