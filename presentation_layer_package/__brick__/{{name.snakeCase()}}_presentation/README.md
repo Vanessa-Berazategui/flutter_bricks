@@ -1,15 +1,13 @@
 # {{name.titleCase()}} Presentation Layer
 
-Esta capa está compuesta por las carpetas `assets`, `bloc`, `extensions`, `widget`, y los archivos `core` y `types`.
+Esta capa está compuesta por las carpetas `assets`, `bloc`, `extensions`, `widget`, y el archivo `types`.
 
-En la carpeta `modelos` se almacenan los modelos o dtos de la aplicación.
+En la carpeta `assets` se encuentran los recursos que serán empleados en las vistas de forma global y son reutilizados en toda la app.
 
-En la carpeta `extensions` se definen accesos directos para ciertos componentes.
+En la carpeta `bloc` (business logic component) se almacenan los archivos relacionados con la lógica y manejo de estado globales a la app.
 
-En la carpeta `exceptions` se definen las excepciones manejadas por la aplicación.
+En la carpeta `extensions` se encuentran las extensiones útiles que serán utilizadas en las vistas de forma global y son reutilizadas en toda la app.
 
-En la carpeta `repositories` se implementan las interfaces de los repositorios.
+En la carpeta `widget` se definen los widgets que serán empleados en las vistas de forma global y son reutilizados en toda la app.
 
-En la carpeta `datasources` se implementan los datasources de la aplicación.
-
-En la carpeta `api` se implementan los métodos para realizar peticiones http a una api rest.
+En el archivo `types` se definen se definen las funciones para inyectar blocs que serán empleados en las páginas.

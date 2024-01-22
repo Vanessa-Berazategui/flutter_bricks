@@ -34,7 +34,6 @@ flutter:
     - assets/icons/
     - assets/animations/
 
-
 flutter_gen:
   output: lib/src/core/assets
   line_length: 80
