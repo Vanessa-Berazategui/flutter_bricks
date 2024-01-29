@@ -1,4 +1,4 @@
-name: app_unflavoured_hydrated_feature_hooks
+name: app_flavoured_feature_hooks
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

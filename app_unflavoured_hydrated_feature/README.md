@@ -26,7 +26,7 @@ mason make app_unflavoured_hydrated_feature --name=hydrated_feature_name
 
 Genera la estructura de archivos que compone una feature con estado de una aplicación sin flavours, este feature va bajo el lib de la estructura base del proyecto.
 
-Un feature está compuesto por las carpetas `bloc`, `page`, `view` y `widget`
+Un feature está compuesto por las carpetas `bloc`, `page`, `view` y `widget`.
 
 En la carpeta `bloc` (business logic component) se almacenan los archivos relacionados con la lógica y manejo de estado.
 

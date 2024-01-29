@@ -26,7 +26,7 @@ mason make domain_layer_package --name=domain_layer_package_name
 
 Genera la estructura de archivos que compone la capa de dominio.
 
-Esta capa está compuesta por las carpetas `entities`, `repositories`, `result` y `usecases`
+Esta capa está compuesta por las carpetas `entities`, `repositories`, `result` y `usecases`.
 
 En la carpeta `entities` se almacenan las entidades de dominio de la aplicación.
 

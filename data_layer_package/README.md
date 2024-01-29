@@ -20,14 +20,13 @@ A few resources to get you started if this is your first brick template:
 [3]: https://verygood.ventures/blog/code-generation-with-mason
 [4]: https://youtu.be/G4PTjA6tpTU
 
-
 ```bash
 mason make data_layer_package --name=data_layer_package_name
 ```
 
 Genera la estructura de archivos que compone la capa de datos.
 
-Esta capa está compuesta por las carpetas `models`, `extensions`, `exceptions`, `repositories`, `datasources` y `api`
+Esta capa está compuesta por las carpetas `models`, `extensions`, `exceptions`, `repositories`, `datasources` y `api`.
 
 En la carpeta `modelos` se almacenan los modelos o dtos de la aplicación.
 
