@@ -37,3 +37,8 @@ lint: ## Lints the code
 fix: ## Fixing the code
 	@echo "╠ Fixing code..."
 	fvm dart fix --apply
+
+.PHONY: sort
+sort: ## Sorting dependencies
+	@echo "╠ Sorting dependencies..."
+	fvm flutter pub run import_sorter:main	
