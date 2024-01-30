@@ -25,3 +25,21 @@ A few resources to get you started if this is your first brick template:
 [5]: https://youtu.be/qjA0JFiPMnQ
 [6]: https://youtu.be/o8B1EfcUisw
 [7]: https://youtu.be/LXhgiF5HiQg
+
+```bash
+mason make presentation_layer_package --name=presenetation_layer_package_name
+```
+
+Genera la estructura de archivos que compone la capa de presentación.
+
+Esta capa está compuesta por las carpetas `assets`, `bloc`, `extensions`, `widget`, y el archivo `types`.
+
+En la carpeta `assets` se encuentran los recursos que serán empleados en las vistas de forma global y son reutilizados en toda la app.
+
+En la carpeta `bloc` (business logic component) se almacenan los archivos relacionados con la lógica y manejo de estado globales a la app.
+
+En la carpeta `extensions` se encuentran las extensiones útiles que serán utilizadas en las vistas de forma global y son reutilizadas en toda la app.
+
+En la carpeta `widget` se definen los widgets que serán empleados en las vistas de forma global y son reutilizados en toda la app.
+
+En el archivo `types` se definen se definen las funciones para inyectar blocs que serán empleados en las páginas.

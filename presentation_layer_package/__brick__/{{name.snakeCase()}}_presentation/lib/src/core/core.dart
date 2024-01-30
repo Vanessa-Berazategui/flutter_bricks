@@ -1,5 +1,6 @@
 import 'package:{{name.snakeCase()}}_presentation/{{name.snakeCase()}}_presentation.dart';
 
+export 'assets/assets.dart';
 export 'bloc/bloc.dart';
 export 'extensions/extensions.dart';
 export 'types.dart';
