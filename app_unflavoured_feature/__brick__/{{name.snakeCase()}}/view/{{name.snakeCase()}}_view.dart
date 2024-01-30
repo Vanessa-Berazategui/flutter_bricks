@@ -6,9 +6,6 @@ class {{name.pascalCase()}}View extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('{{name.pascalCase()}}'),
-      ),
       body: const Center(
         child: Text(
           '{{name.pascalCase()}} View',

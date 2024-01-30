@@ -8,6 +8,8 @@ class App{{name.pascalCase()}}View extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = context.l10n;
 
-    return {{name.pascalCase()}}View();
+    return {{name.pascalCase()}}View(
+              bodyText:'{{name.pascalCase()}} View',
+            );
   }
 }
