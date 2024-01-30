@@ -1,0 +1,13 @@
+name: presentation_layer_feature
+description: A presentation flavoured feature brick.
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.52 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Presentation layer feature
+    prompt: What is the Presentation Layer Feature's name?
