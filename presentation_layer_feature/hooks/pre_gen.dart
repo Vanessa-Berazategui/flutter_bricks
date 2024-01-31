@@ -10,7 +10,7 @@ Future<void> run(HookContext context) async {
   progress.update('Getting package info...');
 
   final pubspecContent = await File(
-    path.join('..', 'pubspec.yaml'),
+    path.join('../..', 'pubspec.yaml'),
   ).readAsString();
 
   final pubspec = Pubspec.parse(pubspecContent);
