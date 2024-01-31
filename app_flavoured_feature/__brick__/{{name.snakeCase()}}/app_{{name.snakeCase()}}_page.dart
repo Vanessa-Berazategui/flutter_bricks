@@ -1,3 +1,6 @@
+import 'package:{{package_name}}/app/app.dart';
+import 'package:{{package_name}}/{{name.snakeCase()}}/{{name.snakeCase()}}_view.dart';
+
 class App{{name.pascalCase()}}Page extends {{name.pascalCase()}}Page {
   App{{name.pascalCase()}}Page()
       : super(
