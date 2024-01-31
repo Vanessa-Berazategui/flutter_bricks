@@ -1,5 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
+
+import 'package:{{package_name}}/src/core/core.dart';
+import 'package:{{package_name}}/src/{{name.snakeCase()}}/bloc/{{name.snakeCase()}}_bloc.dart';
+import 'package:{{package_name}}/src/{{package_name}}.dart';
 
 abstract class {{name.pascalCase()}}Page<View extends Widget> extends GoRoute {
   {{name.pascalCase()}}Page({
