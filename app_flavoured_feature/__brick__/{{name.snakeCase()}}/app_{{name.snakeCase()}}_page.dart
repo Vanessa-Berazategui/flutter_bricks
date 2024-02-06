@@ -10,9 +10,9 @@ class App{{name.pascalCase()}}Page extends {{name.pascalCase()}}Page {
           view: const App{{name.pascalCase()}}View(),
         );
 
-  static const _path = '{{name.snakeCase()}}';
+  static const _path = '/{{name.snakeCase()}}';
 
-  static String get route => '/$_path';
+  static String get route => _path;
 
   static void open(BuildContext context) => context.go(route);
 }

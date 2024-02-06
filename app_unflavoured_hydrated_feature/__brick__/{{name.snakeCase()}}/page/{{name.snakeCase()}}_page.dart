@@ -15,9 +15,9 @@ class {{name.pascalCase()}}Page extends GoRoute {
           ),
   );
 
-  static const _path = '{{name.snakeCase()}}';
+  static const _path = '/{{name.snakeCase()}}';
    
-  static String get route => '/$_path';
+  static String get route => _path;
 
   static void open(BuildContext context) => context.go(route);
 }
