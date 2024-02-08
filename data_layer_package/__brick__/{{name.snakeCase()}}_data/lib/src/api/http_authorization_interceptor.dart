@@ -1,0 +1,1 @@
+class HttpAuthorizationInterceptor extends QueuedInterceptor {}
