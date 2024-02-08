@@ -7,7 +7,7 @@ environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  dio: ^4.0.6
+  dio: ^5.0.0
   flutter:
     sdk: flutter
   flutter_ddd_skeleton_monorepo_flavoured_domain:
