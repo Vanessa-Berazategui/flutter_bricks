@@ -1,4 +1,4 @@
-import 'package:{{name.snakeCase()}}_domain/src/payload/base/base.dart';
+import 'package:{{name.snakeCase()}}_domain/src/params/base/base.dart';
 
 class NoParams extends BaseParams {
   const NoParams();
