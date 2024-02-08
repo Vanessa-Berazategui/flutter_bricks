@@ -1,7 +1,7 @@
 import 'dart:developer';
 
 import 'package:dio/dio.dart';
-import 'package:geopos_services_data/src/api/api.dart';
+import 'package:{{name.snakeCase()}}_data/src/api/api.dart';
 import 'package:{{name.snakeCase()}}_domain/{{name.snakeCase()}}_domain.dart';
 
 extension ErrorHandler on BaseRepository {
