@@ -9,5 +9,5 @@ import 'package:{{name.snakeCase()}}_data/timeout_options.dart';
 
 part '{{name.snakeCase()}}_api.g.dart';
 
-@RestApi
+@RestApi()
 abstract class {{name.pascalCase()}}Api {}
