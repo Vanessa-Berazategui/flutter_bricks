@@ -3,6 +3,7 @@ import 'dart:developer';
 import 'package:dio/dio.dart';
 import 'package:{{name.snakeCase()}}_data/src/api/api.dart';
 import 'package:{{name.snakeCase()}}_domain/{{name.snakeCase()}}_domain.dart';
+import 'package:{{name.snakeCase()}}_data/src/types.dart';
 
 extension ErrorHandler on BaseRepository {
   Future<Result<T>> process<T>({
