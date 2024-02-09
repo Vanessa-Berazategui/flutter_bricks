@@ -1,7 +1,7 @@
 part of 'result.dart';
 
 @freezed
-class Failure with _$Failure {
+sealed class Failure with _$Failure {
   const factory Failure.server({
     required String message,
     int? code,
