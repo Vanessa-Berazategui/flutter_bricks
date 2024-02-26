@@ -8,7 +8,7 @@ class App{{name.pascalCase()}}View extends StatelessWidget {
     final l10n = context.l10n;
 
     return {{name.pascalCase()}}View(
-              appBarText:'{{name.pascalCase()}} View',
+              bodyText:'{{name.pascalCase()}} View',
             );
   }
 }
