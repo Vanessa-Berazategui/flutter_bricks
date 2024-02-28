@@ -10,5 +10,5 @@ vars:
   name:
     type: string
     description: Package domain layer name
-    default: <project_name>
+    default: <domain_layer_name>_package
     prompt: What is the Domain Layer Package's name?

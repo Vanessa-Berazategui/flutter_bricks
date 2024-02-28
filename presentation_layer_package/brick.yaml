@@ -10,5 +10,5 @@ vars:
   name:
     type: string
     description: Package name
-    default: presentation_layer_package
+    default: <presentation_layer_name>_package
     prompt: Enter package name

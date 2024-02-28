@@ -10,4 +10,5 @@ vars:
   name:
     type: string
     description: Presentation layer feature
+    default: <feature_name>
     prompt: What is the Presentation Layer Feature's name?

@@ -10,4 +10,5 @@ vars:
   name:
     type: string
     description: Domain layer entity name
+    default: <entity_name>
     prompt: What is the Domain Layer Entity's name?

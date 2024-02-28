@@ -10,4 +10,5 @@ vars:
   name:
     type: string
     description: App feature name
+    default: <feature_name>
     prompt: What is the App Feature's name?
