@@ -11,5 +11,6 @@ class {{name.pascalCase()}}Model extends {{name.pascalCase()}} implements BaseMo
   factory {{name.pascalCase()}}Model.fromJson(Map<String, dynamic> json) =>
       _${{name.pascalCase()}}ModelFromJson(json);
 
+  @override
   Map<String, dynamic> toJson() => _${{name.pascalCase()}}ModelToJson(this);
 }
