@@ -24,14 +24,14 @@ A few resources to get you started if this is your first brick template:
 mason make app_unflavoured_feature --name=feature_name
 ```
 
-Genera la estructura de archivos que compone una feature de una aplicación sin flavours, este feature va bajo el lib de la estructura base del proyecto.
+Generates the file structure that makes up a feature of an application without flavors, this feature goes under the lib of the base structure of the project.
 
-Un feature está compuesto por las carpetas `bloc`, `page`, `view` y `widget`.
+A feature is made up of the `bloc`, `page`, `view` and `widget` folders.
 
-En la carpeta `bloc` (business logic component) se almacenan los archivos relacionados con la lógica y manejo de estado.
+The files related to logic and state management are stored in the `bloc` (business logic component) folder.
 
-En la carpeta `page` se definen las rutas de página correspondientes (usando [go_router](https://pub.dev/packages/go_router)) al feature creado.
+In the `page` folder the corresponding page routes are defined (using [go_router](https://pub.dev/packages/go_router)) to the created feature.
 
-En la carpeta `view` se definen las vistas de cada una de las pantallas correspondientes al feature.
+In the `view` folder the views of each of the screens corresponding to the feature are defined.
 
-En la carpeta `widget` se definen los widgets que serán empleados en las vistas.
+In the `widget` folder the widgets that will be used in the views are defined.

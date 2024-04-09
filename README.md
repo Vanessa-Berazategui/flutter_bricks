@@ -1,91 +1,91 @@
 # Bricks
 
-## Cómo crear un brick
+## How to create a brick
 
-1. Instalar [`mason`](https://pub.dev/packages/mason_cli)
+1. Install [`mason`](https://pub.dev/packages/mason_cli)
 
 ```bash
 dart pub global activate mason_cli
 ```
 
-2. Inicializar mason
+2. Initialize mason
 
 ```bash
 mason init
 ```
 
-3. Crear el brick
+3. Create brick
 
 ```bash
 mason new <BRICK_NAME>
 ```
 
-## Cómo usar bricks para generación de código en un nuevo proyecto
+## How to use bricks for code generation in a new project
 
-1. Instalar [`mason`](https://pub.dev/packages/mason_cli)
+1. Install [`mason`](https://pub.dev/packages/mason_cli)
 
 ```bash
 dart pub global activate mason_cli
 ```
 
-2. Inicializar mason
+2. Initialize mason
 
 ```bash
 mason init
 ```
 
-3. Agregar bricks submodule al proyecto
+3. Add bricks submodule to the project
 
 ```bash
 git submodule add https://github.com/Vanessa-Berazategui/flutter_bricks.git
 ```
 
-3. Agregar el brick <BRICK_NAME> deseado al proyecto.
+3. Add the desired brick <BRICK_NAME> to the project
 
 ```bash
 mason add <BRICK_NAME> --path ./bricks/<BRICK_NAME>
 ```
 
-4. Ejecutar el brick <BRICK_NAME>
+4. Run the brick <BRICK_NAME>
 
 ```bash
 mason make <BRICK_NAME> --name=nombre_example
 ```
 
-## Cómo usar bricks en un proyecto que contenga bricks com submodulo
+## How to use bricks in a project that contains bricks with submodule
 
-1. Clonar el proyecto a utilizar.
+1. Clone the project to use.
 
 ```bash
 git clone https://github.com/Vanessa-Berazategui/repo_example.git
 ```
 
-2. Inicializar mason
+2. Initialize mason
 
 ```bash
 mason init
 ```
 
-3. Descargar submodulo de bricks (si da error de autenticación realizar un git clone)
+3. Download bricks submodule (if authentication fails, perform a git clone)
 
 ```bash
 git submodule init
 git submodule update
 ```
 
-4. Obtener los bricks
+4. Get the bricks
 
 ```bash
 git mason get
 ```
 
-## Cómo listar los bricks instalados en un proyecto
+## How to list the bricks installed in a project
 
 ```bash
 mason list
 ```
 
-## Listado de bricks
+## Brick list
 
 ### **data_layer_model**
 

@@ -24,4 +24,4 @@ A few resources to get you started if this is your first brick template:
 mason make data_layer_model --name=model_name
 ```
 
-Genera la estructura que compone un modelo de la capa de datos.
+Generates the structure that makes up a data layer model.

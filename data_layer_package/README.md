@@ -24,18 +24,18 @@ A few resources to get you started if this is your first brick template:
 mason make data_layer_package --name=data_layer_package_name
 ```
 
-Genera la estructura de archivos que compone la capa de datos.
+Generates the file structure that makes up the data layer.
 
-Esta capa está compuesta por las carpetas `models`, `extensions`, `exceptions`, `repositories`, `datasources` y `api`.
+This layer is made up of the `models`, `extensions`, `exceptions`, `repositories`, `datasources` and `api` folders.
 
-En la carpeta `modelos` se almacenan los modelos o dtos de la aplicación.
+The models or application data are stored in the `models` folder.
 
-En la carpeta `extensions` se definen accesos directos para ciertos componentes.
+Shortcuts for certain components are defined in the `extensions` folder.
 
-En la carpeta `exceptions` se definen las excepciones manejadas por la aplicación.
+The exceptions handled by the application are defined in the `exceptions` folder.
 
-En la carpeta `repositories` se implementan las interfaces de los repositorios.
+The repository interfaces are implemented in the `repositories` folder.
 
-En la carpeta `datasources` se implementan los datasources de la aplicación.
+The application's datasources are implemented in the `datasources` folder.
 
-En la carpeta `api` se implementan los métodos para realizar peticiones http a una api rest.
+The methods to make http requests to a rest api are implemented in the `api` folder.

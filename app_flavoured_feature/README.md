@@ -30,10 +30,10 @@ A few resources to get you started if this is your first brick template:
 mason make app_flavoured_feature --name=feature_name
 ```
 
-Genera la estructura de archivos que compone una feature de una aplicación con flavours, este feature va bajo el lib de la estructura de la app del flavour particular.
+Generates the file structure that makes up a feature of an application with flavors, this feature goes under the lib of the app structure of the particular flavor.
 
-Un feature está compuesto por los archivos `page` y `view`.
+A feature is made up of the `page` and `view` files.
 
-En el archivo `page` se definen las rutas de página correspondientes (usando [go_router](https://pub.dev/packages/go_router)) al feature creado para el flavour particular.
+In the `page` file the corresponding page routes are defined (using [go_router](https://pub.dev/packages/go_router)) to the feature created for the particular flavour.
 
-En el archivo `view` se define la vista de la pantalla correspondiente al feature creado para el flavour particular.
+In the `view` file the screen view corresponding to the feature created for the particular flavor is defined.

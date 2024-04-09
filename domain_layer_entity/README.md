@@ -24,4 +24,4 @@ A few resources to get you started if this is your first brick template:
 mason make domain_layer_entity --name=entity_name
 ```
 
-Genera la estructura que compone una entidad de la capa de dominio.
+Generates the structure that makes up a domain layer entity.

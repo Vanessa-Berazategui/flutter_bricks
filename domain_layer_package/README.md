@@ -24,14 +24,14 @@ A few resources to get you started if this is your first brick template:
 mason make domain_layer_package --name=domain_layer_package_name
 ```
 
-Genera la estructura de archivos que compone la capa de dominio.
+Generates the file structure that makes up the domain layer.
 
-Esta capa está compuesta por las carpetas `entities`, `repositories`, `result` y `usecases`.
+This layer is made up of the `entities`, `repositories`, `result` and `usecases` folders.
 
-En la carpeta `entities` se almacenan las entidades de dominio de la aplicación.
+The application's domain entities are stored in the `entities` folder.
 
-En la carpeta `repositories` se definen las interfaces de los repositorios.
+In the `repositories` folder the repository interfaces are defined.
 
-En la carpeta `result` se definen los las clases reutilizables para la respuesta de las interfaces de los respositorios.
+In the `result` folder, the reusable classes for the response of the repository interfaces are defined.
 
-En la carpeta `usecases` se definen los casos de uso de la aplicación.
+The use cases of the application are defined in the `usecases` folder.
