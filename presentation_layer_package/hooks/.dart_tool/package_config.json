@@ -182,7 +182,10 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2024-02-06T14:48:23.771137Z",
+  "generated": "2024-10-21T00:02:59.592460Z",
   "generator": "pub",
-  "generatorVersion": "3.2.6"
+  "generatorVersion": "3.5.3",
+  "flutterRoot": "file:///Users/vberazategui/fvm/versions/3.24.3",
+  "flutterVersion": "3.24.3",
+  "pubCache": "file:///Users/vberazategui/.pub-cache"
 }

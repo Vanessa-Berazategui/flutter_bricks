@@ -11,8 +11,8 @@ dependencies:
   equatable: ^2.0.5
   flutter:
     sdk: flutter
-  flutter_ddd_skeleton_monorepo_flavoured_domain:
-    path: ../flutter_ddd_skeleton_monorepo_flavoured_domain
+  app_updater_flavoured_domain:
+    path: ../app_updater_flavoured_domain
   flutter_secure_storage: ^9.0.0  
   json_annotation: ^4.7.0
   pretty_dio_logger: ^1.3.1
